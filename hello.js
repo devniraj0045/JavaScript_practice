@@ -1,17 +1,17 @@
 
-// function hello()
-// {
-//     alert (window.value);  // declaring the global variable 
-// }
+function hello()
+{
+    alert (window.value);  // declaring the global variable 
+}
 
-// function animation()
-// {
+function animation()
+{
 
-//     window.value=100; // accesing the another function using global
+    window.value=100; // accesing the another function using global
 
-// }
-// hello();
-// animation();
+}
+hello();
+animation();
 
 
 document.getElementById("para").onclick=function(){
@@ -39,4 +39,3 @@ document.getElementById("para").onclick=function(){
     }
   }
 
- 
